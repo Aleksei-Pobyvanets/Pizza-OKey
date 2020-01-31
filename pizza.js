@@ -11,7 +11,7 @@ function openProduct(evt, productName) {
   document.getElementById(productName).style.display = "block";
   evt.currentTarget.className += " active";
 }
-function openProduct(evt, productName) {
+function openProduct1(evt, productName) {
   var i, tabcontent, tablinks__more;
   tabcontent = document.getElementsByClassName("tabMorecontent");
   for (i = 0; i < tabcontent.length; i++) {
@@ -24,4 +24,3 @@ function openProduct(evt, productName) {
   document.getElementById(productName).style.display = "block";
   evt.currentTarget.className += " active";
 }
-
