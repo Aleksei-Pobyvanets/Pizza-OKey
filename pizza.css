@@ -186,6 +186,7 @@
 .nav__moreProduct{
     position: relative;
     text-align: center;
+    padding: 35px 0 35px 0;
 }
 .openMenu {
     position: relative;
@@ -193,8 +194,26 @@
     color: black;
     padding: 10px 15px;
     cursor: pointer;
+    width: 150px;
+    margin: auto;
+    text-align: center;
+    background-color: #D5D506;
 }
-.menu {
+.menuPizza {
+    display: none;
+    background-color: ;
+    position: relative;
+    list-style: none;
+    padding: 0;
+}
+.menuSalat {
+    display: none;
+    background-color: ;
+    position: relative;
+    list-style: none;
+    padding: 0;
+}
+.menuDrink {
     display: none;
     background-color: ;
     position: relative;
@@ -203,4 +222,7 @@
 }
 .menu__li {
     display: inline-block;
+}
+.active{
+    display: block;
 }
