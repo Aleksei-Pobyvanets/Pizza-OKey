@@ -11,6 +11,9 @@ function openProduct(evt, productName) {
   document.getElementById(productName).style.display = "block";
   evt.currentTarget.className += " active";
 }
+
+// More
+/*
 function openProduct1(evt, productName) {
   var i, tabcontent, tablinks__more;
   tabcontent = document.getElementsByClassName("tabMorecontent");
@@ -23,4 +26,19 @@ function openProduct1(evt, productName) {
   }
   document.getElementById(productName).style.display = "block";
   evt.currentTarget.className += " active";
+}
+*/
+
+//menu__moreProduct
+window.onload = function () {
+  var menuStyle = getComputedStyle(menu);
+  openMenu.onclock = function () {
+      if(menuStyle.display == "none"){
+          menu.classList.add (" active");
+          //this.innerHTML = "Закрыть"
+      }else {
+          menu.classList.remove (" active");
+          //this.innerHTML = "Открыть"
+      }
+  }
 }
